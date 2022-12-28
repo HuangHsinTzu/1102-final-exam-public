@@ -8,3 +8,4 @@ def p02(a=1, b=100):
             evensum = result
     # ↑程式區域↑
     return evensum
+print(p02())
