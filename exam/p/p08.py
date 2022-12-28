@@ -1,9 +1,9 @@
-def p08(n=13):
+def p08(n=8):
     output=None
     # ↓程式區域↓
     squar = 1
     i = 0
-    while ((i+1)**2)*2 < n :
+    while ((i+1)**2)*2 <= n :
         i += 1
         squar = i**2 
     if n % squar == 0:
